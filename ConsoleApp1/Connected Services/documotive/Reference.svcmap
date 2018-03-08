@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="89ba451e-3a81-4e0f-95e5-4c074e6b2727" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EDRMWebService.xsd" MetadataType="Schema" ID="30185af5-fa62-4f80-aaf5-dd542e86e163" SourceId="1" SourceUrl="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EDRMWebService.wsdl" MetadataType="Wsdl" ID="126bb20f-10b7-40ab-9cfd-b9531c796f0a" SourceId="1" SourceUrl="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc?wsdl" />
+    <MetadataFile FileName="EDRMWebService.disco" MetadataType="Disco" ID="793ae9cf-de0f-4bdf-98a9-be4c836adf9b" SourceId="1" SourceUrl="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc?disco" />
+    <MetadataFile FileName="EDRMWebService1.xsd" MetadataType="Schema" ID="2631c977-d88a-4d3d-9fee-3fe29468d535" SourceId="1" SourceUrl="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EDRMWebService2.xsd" MetadataType="Schema" ID="c0e899bd-a44e-4551-aab8-456fe315d7a0" SourceId="1" SourceUrl="http://instorage/DocumotiveEDRMWebService/EDRMWebService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
